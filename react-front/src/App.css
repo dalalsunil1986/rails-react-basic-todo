@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+#root {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    color: rgb(109, 109, 109);
+}
+.App {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    /* width: 80%; */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.title {
+    margin-top: 40px;
+}
+
+.form-group{
+    padding-bottom: 30px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.form-control{
+    text-align:center;
+}
+
+.btn-block {
+    margin-top: 20px;
+}
+
+.btn {
+    padding-bottom: 2px;
+}
+
+.jumbotron {
+    width: max-content;
+}
+
+.todo-container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: contents;
+}
